@@ -1,0 +1,107 @@
+/*
+  Style: AllanPls
+	Author: survfate (/u/survfate)
+	Version 0.1
+*/
+
+@-moz-document domain("pathofexile.com") {
+    #trade .resultset {
+        max-width: 1000px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #trade .resultset .row {
+        display: grid;
+        grid-template-columns: 0% 30% 70%;
+        grid-template-rows: 50% 50%;
+        padding-right: 15px;
+    }
+
+    #trade div.left,
+    #trade div.middle,
+    #trade div.right {
+        width: 100%;
+    }
+
+    #trade div.right {
+        grid-column: 2;
+    }
+
+    #trade div.middle {
+        grid-column: 3;
+        grid-row-start: 1;
+        grid-row-end: span 2;
+    }
+
+    #trade div.right .details {
+        margin-top: 10px;
+    }
+
+    #trade div.right button.ignore-btn {
+        color: #a10000;
+    }
+
+    #trade .resultset span.pull-left,
+    #trade .resultset span.pull-right {
+        /* float: none !important; */
+    }
+
+    #trade div.right .btns {
+        line-height: 2.1;
+    }
+
+    #trade .status {
+        line-height: initial;
+    }
+
+    #trade div.right .status {
+        /* will be update later */
+    }
+
+    #trade div.middle {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        border: 1px solid #886437;
+        background: rgba(0, 0, 0, 0.8);
+    }
+
+    #trade .itemPopupContainer {
+        border-right: 1px solid #886437;
+    }
+
+    #trade .itemPopupAdditional {
+        margin-top: 0;
+        font-size: 110%;
+        height: 39px;
+        padding-top: 39px;
+    }
+
+    #trade .itemPopupAdditional > span {
+        display: inline-grid;
+    }
+
+    #trade .itemName,
+    #trade .displayProperty:not(:first-child),
+    #trade .requirements {
+    display: inline-block;
+    }
+
+    #trade .itemHeader,
+    #trade .itemHeader > span.l,
+    #trade .itemHeader > span.r {
+        background-image: none;
+    }
+
+    #trade .itemName > span {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 90%;
+    }
+       
+    #trade .itemHeader {
+        height: 33px;
+        white-space: nowrap;
+        overflow-y: hidden;
+    }   
+}
