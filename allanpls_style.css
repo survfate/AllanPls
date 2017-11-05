@@ -67,8 +67,7 @@
         display: initial;
     }
     #trade .resultset .row.exchange .contact {
-        grid-column-start: 2;
-        grid-column-end: span 2;
+        grid-column-start: 3;
     }
     #trade .itemPopupContainer {
         border-right: 1px solid #886437;
