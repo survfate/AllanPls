@@ -19,3 +19,8 @@ Firefox or Chrome with the Stylish extensions (this style has been tested on Fir
 - Pure CSS, completely safe
 
 **Note**: This style will only try to bring the Poe.Trade feel into the official Trade website for PC usage only, I will not focus on making this an all-purpose redesign.
+
+## Changelog
+
+**Version 0.1**
+- Initial version
