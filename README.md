@@ -1,4 +1,4 @@
-# AllanPls (Version 0.1.1)
+# AllanPls (Version 0.1.2)
 
 ![capture](https://user-images.githubusercontent.com/10634948/32412141-f5f6fd62-c220-11e7-9c1d-55bb2066609c.PNG)
 
@@ -8,7 +8,7 @@ A Poe.Trade-inspired style for the official Path of Exile Trade website (pathofe
 
 Firefox or Chrome with the Stylish extension (this style has been tested on Firefox 55.0.3 and Chrome 62.0.3202.75)
 
-## Installation
+## Installation & Update
 
 [**Install from userstyles.org**](https://userstyles.org/styles/150669/allanpls-for-path-of-exile-trade)
 
@@ -21,6 +21,10 @@ Firefox or Chrome with the Stylish extension (this style has been tested on Fire
 **Note**: This style will only try to bring the Poe.Trade feel into the official Trade website for PC usage only, I will not focus on making this an all-purpose redesign.
 
 ## Changelog
+
+**Version 0.1.2**
+- Bug fix for bulk item exchange results
+- Single-column search form
 
 **Version 0.1.1**
 - Simplify divination card results
