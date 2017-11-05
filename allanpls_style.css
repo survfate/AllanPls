@@ -102,6 +102,6 @@
     #trade .itemHeader {
         height: 33px;
         white-space: nowrap;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
     }   
 }
