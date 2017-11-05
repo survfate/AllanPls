@@ -15,6 +15,7 @@ Firefox or Chrome with the Stylish extensions (this style has been tested on Fir
 ## What is this?
 
 - A Poe.Trade-inspired style with a packed, simplify layout
+- Still retain the official look of the game
 - Pure CSS, completely safe
 
 **Note**: This style will only try to bring the Poe.Trade feel into the official Trade website for PC usage only, I will not focus on making this an all-purpose redesign.
