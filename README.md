@@ -10,7 +10,7 @@ Firefox or Chrome with the Stylish extensions (this style has been tested on Fir
 
 ## Installation
 
-[**Lastest Release**](https://userstyles.org/styles/150669/allanpls-for-path-of-exile-trade)
+[**Install from userstyles.org**](https://userstyles.org/styles/150669/allanpls-for-path-of-exile-trade)
 
 ## What is this?
 
