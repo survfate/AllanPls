@@ -1,16 +1,19 @@
 /*
 	Style: AllanPls
 	Author: survfate (/u/survfate)
-	Version 0.1.1
+	Version 0.1.2
 */
 
 @-moz-document domain("pathofexile.com") {
-    /* .resultset layout */
+    /* page layout */
     
-    #trade .resultset {
+    #trade, #trade .resultset {
         max-width: 1000px;
         margin-left: auto;
         margin-right: auto;
+    }
+    #trade .search-bar .search-advanced-pane {
+        width: 100%;
     }
     #trade .resultset .row {
         display: grid;
@@ -59,6 +62,9 @@
         grid-template-columns: 50% 50%;
         border: 1px solid #886437;
         background: rgba(0, 0, 0, 0.8);
+    }
+    #trade .resultset .row.exchange div.middle {
+        display: initial;
     }
     #trade .itemPopupContainer {
         border-right: 1px solid #886437;
