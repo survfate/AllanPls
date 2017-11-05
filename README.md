@@ -14,7 +14,7 @@ Firefox or Chrome with the Stylish extension (this style has been tested on Fire
 
 ## What is this?
 
-- A Poe.Trade-inspired style with a packed, simplify layout for the official Path of Exile Trade website (pathofexile.com/trade)
+- A Poe.Trade-inspired style with a packed, simplify layout for the official Path of Exile Trade website (**pathofexile.com/trade**)
 - Still retain the official look of the game
 - Pure CSS, completely safe
 
