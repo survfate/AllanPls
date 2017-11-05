@@ -1,5 +1,5 @@
 /*
-  Style: AllanPls
+	Style: AllanPls
 	Author: survfate (/u/survfate)
 	Version 0.1
 */
@@ -84,7 +84,7 @@
     #trade .itemName,
     #trade .displayProperty:not(:first-child),
     #trade .requirements {
-    display: inline-block;
+    	display: inline-block;
     }
 
     #trade .itemHeader,
