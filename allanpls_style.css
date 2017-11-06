@@ -91,6 +91,9 @@
         font-size: 100% !important;
         color: #c8c8c8;
     }
+    #trade .itemPopupContainer.divinationCard .itemBoxContent {
+        padding-bottom: 7.15px;
+    }
     #trade .itemPopupContainer.divinationCard .itemBoxContent .stackSize,
     #trade .itemPopupContainer.divinationCard .itemBoxContent .explicitModsWrapper {
         position: unset;
@@ -98,7 +101,19 @@
         margin: 0;
     }
     #trade .itemPopupContainer.divinationCard .itemBoxContent .stackSize {
-        text-align: left;
+        text-align: center;
+        color: white;
+    }
+    #trade .itemPopupContainer.divinationCard .itemBoxContent .stackSize::before {
+        content: 'Stack Size: ';
+        color: #7f7f7f;
+    }
+    #trade .itemPopupContainer.divinationCard .itemBoxContent .explicitModsWrapper {
+        font-size: 14.3px;
+        height: 0%;
+    }
+    #trade .itemPopupContainer.divinationCard .itemBoxContent .explicitModsContainer {
+        height: 100%;
     }
     #trade .itemPopupContainer.divinationCard .itemBoxContent .flavourTextWrapper {
         display: none;
@@ -109,12 +124,13 @@
         height: 39px;
         padding-top: 39px;
         padding-left: 5px;
+        background: none;
     }
     #trade .itemPopupAdditional > span {
         display: inline-grid;
     }
     #trade .itemName,
-    #trade .displayProperty:not(:first-child),
+    #trade .displayProperty,
     #trade .requirements {
         display: inline-block;
     }
