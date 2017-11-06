@@ -1,4 +1,4 @@
-# AllanPls (Version 0.1.2)
+# AllanPls (Version 0.1.3)
 
 ![allanpls](https://user-images.githubusercontent.com/10634948/32416880-e5a4461a-c282-11e7-985d-630dc0869462.PNG)
 
@@ -21,6 +21,11 @@ Firefox or Chrome with the Stylish extension (this style has been tested on Fire
 **Note**: This style will only try to bring the Poe.Trade feel into the official Trade website for PC usage only, I will not focus on making this an all-purpose redesign.
 
 ## Changelog
+
+**Version 0.1.3**
+- Bug fix for item with long name
+- Allow display more item properties per line
+- Small divination card layout change
 
 **Version 0.1.2**
 - Bug fix for bulk item exchange results
