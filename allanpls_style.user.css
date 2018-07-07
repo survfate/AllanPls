@@ -140,6 +140,7 @@
     	display: none;
     }
     #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > .displayProperty:nth-child(2),
+    #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > .displayProperty:nth-child(6),
     #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > .requirements + .separator,
     #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > .vaalHeader + .separator {
 		display: inherit !important;
