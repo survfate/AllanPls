@@ -15,7 +15,7 @@
         margin-right: auto;
     }
     #trade .search-bar .search-advanced-pane {
-        width: 100%;
+        /* width: 100%; */
     }
     #trade .results:not(.compact) .resultset .row {
         display: grid;
@@ -135,10 +135,11 @@
     }
     /* .gemPopup */
     
-    #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > div:not(.vaalHeader):not(.requirements):not(.additionalProperty):not(.unmet) {
+    #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > div:not(.vaalHeader):not(.requirements):not(.additionalProperty):not(.unmet),
+    #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > .displayProperty > span:not([data-field=gem_level]):not([data-field=quality]) {
     	display: none;
     }
-       #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > .displayProperty:nth-child(2),
+    #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > .displayProperty:nth-child(2),
     #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > .requirements + .separator,
     #trade .results:not(.compact) .itemPopupContainer.gemPopup .content > .vaalHeader + .separator {
 		display: inherit !important;
