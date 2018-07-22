@@ -27,7 +27,7 @@ Firefox or Chrome with the ~~Stylish~~ Stylus extension (**DO NOT USE Stylish** 
 ## Changelog
 
 **Version 0.1.4**
-~~- Stop support for userstyles.org install since it promote Stylish extension instead of Stylus as default~~
+- ~~Stop support for userstyles.org install since it promote Stylish extension instead of Stylus as default~~
 - AllanPls now only replace the Default style and will let users choose between it and the official compact styles
 - Simplify gems / Vaal gems results
 - Some other fixes for buttons location and item affixes on hover
