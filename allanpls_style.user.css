@@ -23,6 +23,10 @@
     width: 50%;
     float: left;
 }
+#trade .search-bar .search-advanced-pane.blue > .filter-group > .filter-group-header .input-group-btn
+{
+    z-index: 100;
+}
 #trade .search-bar .search-advanced-pane.blue > .filter-group .form-control.socket.str
 {
     border-bottom-color: red;
@@ -73,7 +77,12 @@
 {
     color: #a10000;
 }
-#trade .results:not(.compact) .resultset span.pull-left,
+#trade .results:not(.compact) .resultset span.pull-left.stock
+{
+    width: 100%;
+    text-align: left;
+    font-weight: bolder;
+}
 #trade .results:not(.compact) .resultset span.pull-right
 {
     /* float: none !important; */
