@@ -37,9 +37,9 @@
 }
 #trade .search-bar .search-advanced-pane.brown
 {
-    width: 50%;
+    /* width: 50%; */
     /* margin: 0 auto; */
-    float: none;
+    /* float: none; */
 }
 #trade .results:not(.compact) .resultset .row
 {
