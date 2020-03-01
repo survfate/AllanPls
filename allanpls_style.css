@@ -21,10 +21,6 @@
     width: 50%;
     float: left;
 }
-#trade .search-bar .search-advanced-pane.blue > .filter-group > .filter-group-header .input-group-btn
-{
-    z-index: 100;
-}
 #trade .search-bar .search-advanced-pane.blue > .filter-group .form-control.socket.str
 {
     border-bottom-color: red;
