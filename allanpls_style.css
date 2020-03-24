@@ -43,8 +43,12 @@
 {
     display: grid;
     grid-template-columns: 0% 30% 70%;
-    grid-template-rows: 50% 50%;
+    /* grid-template-rows: 50% 50%; */
     padding-right: 15px;
+}
+#trade .results:not(.compact) .resultset .row:not(.exchange)
+{
+    grid-template-rows: 50% 50%;
 }
 /* row layout */
 #trade .results:not(.compact) div.left,
@@ -120,6 +124,10 @@
 #trade .results:not(.compact) .resultset .row.exchange .contact
 {
     grid-column-start: 3;
+}
+#trade .results:not(.compact) .resultset .row.exchange .contact .slider-middle textarea.form-control
+{
+    height: 64px;
 }
 #trade .results:not(.compact) .itemPopupContainer
 {
@@ -246,5 +254,4 @@
     white-space: nowrap;
     /* overflow-y: hidden; */
     padding-top: 5.18323px;
-}
 }
