@@ -1,3 +1,5 @@
+### *This readme are quite outdated. This style should work fine in the Delirium League (3.10). There are just alot of undocumented/ninja-fixed changes.*
+---
 # AllanPls (Version 0.1.4)
 
 ![allanpls](https://user-images.githubusercontent.com/10634948/32416880-e5a4461a-c282-11e7-985d-630dc0869462.PNG)
